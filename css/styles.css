@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(247, 217, 244);
+}
+
+h1 {
+    color: #7a2a2a;
+    font-family: roboto;
+    text-align: center;
+}
+
+h1 {
+    color: #700c3e;
+    font-family: roboto;
+    text-align: center;
+}
+
+.in p {
+    color: rgb(201, 8, 8);
+}
+
+p {
+    text-align: center;
+}
+
+
+/* Selecting multiple HTML element types */
+
+h1,
+p {
+    border: 1px solid #d6c0d6;
+}
+
+
+/* Selecting styles to be applied to several classes */
+
+.FirstItem,
+.LastItem {
+    font-size: 1.2em;
+}
+
+
+/* Using multiple Kinds of selectors */
+
+h3,
+.red,
+#redElement {
+    color: red;
+    font-style: italic;
+}
+
+{
+    border: 5px dashed blue;
+}
+
+tr {
+    color: rgb(124, 46, 101);
+}
+
+#blue-bordered {
+    border: 5px dashed rgb(65, 5, 38);
+    font-style: italic;
+}
+
+a {
+    color: rgb(124, 46, 101);
+    font-size: xx-large;
+    font-style: oblique;
+    font-variant: inherit;
+}
+
+h5 {
+    color: rgb(124, 46, 101);
+}
